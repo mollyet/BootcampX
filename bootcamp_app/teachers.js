@@ -19,7 +19,7 @@ JOIN cohorts ON cohort_id = cohorts.id
 WHERE cohorts.name = $1
 ORDER BY teacher;
 `;
-const cohortName = input[0] || 'FEB12'
+const cohortName = input[0] || 'FEB12gits t'
 
 const values = [cohortName]
 
